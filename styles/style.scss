@@ -1,11 +1,39 @@
-main{
-    background-color: #359;
+$theme-color: (
+    primary: #edf8f0,
+    secondary: #2d4140,
+    accent: #63cdd7,
+);
 
-    p {
-        background-color: yellow;
-    }
+body {
+    background-color: map-get($theme-color, primary);
+    color: map-get($theme-color, secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 
-    input {
-        background-color: hotpink;
+    nav {
+        font-size: 2em;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 0;
+
+        input {
+            color:  map-get($theme-color, accent);
+            .home {
+                background-color: yellow;
+            }
+            .services{
+                background-color: yellowgreen;
+            }
+            .about-us{
+                background-color: orangered;
+            }
+            .contact{
+                background-color: orchid;
+            }
+        }
+        main {
+            h1 {
+                font-size: 1.5em;
+        }
     }
-}
+} 

@@ -1,10 +1,24 @@
-main{
-    background-color: #359;
-}
-main p {
-    background-color: yellow;
-}
-main input {
-    background-color: hotpink;
-}
- /*sourcMappingURL=style.css.map */
+body {
+    background-color: #edf8f0;
+    color: #2d4140; }
+    body input {
+      color: #63cdd7; }
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; }
+    body nav {
+      font-size: 2em;
+      text-align: center;
+      cursor: pointer;
+      padding: 10px 0; }
+      body nav .home {
+        background-color: yellow; }
+      body nav .services {
+        background-color: yellowgreen; }
+      body nav .about-us {
+        background-color: orangered; }
+      body nav .contact {
+        background-color: orchid; }
+    body main h1 {
+      font-size: 1.5em; }
+  
+  /*# sourceMappingURL=style.css.map */
